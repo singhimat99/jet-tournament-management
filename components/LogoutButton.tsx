@@ -4,7 +4,7 @@ import { auth } from "../lib/firebase";
 
 type Props = {};
 
-export default function Logout({}: Props) {
+export default function LogoutButton({}: Props) {
     const [signOut, loading, error] = useSignOut(auth);
     return (
         <div>
