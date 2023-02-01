@@ -1,5 +1,5 @@
 import React from "react";
-import Logout from "../components/LogoutButton";
+import Logout from "../components/Logout";
 
 type Props = {};
 

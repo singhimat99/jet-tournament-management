@@ -1,6 +1,6 @@
 import React from "react";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
-import { auth } from "../../lib/firebase";
+import { auth } from "../lib/firebase";
 
 type Props = {};
 
